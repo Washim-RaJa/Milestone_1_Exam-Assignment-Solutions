@@ -3,7 +3,7 @@
 
 This website design can be used for selling electric bikes/scooters online.
 
-I have designed this "Bike landing page" as an assignment project for "PW Skills Web Development Course" using technologies like :-
+I have designed this "Bike landing page" as an assignment project for "PW Skills Web Development Course" using technologies which are mentioned below :-
 - HTML
 - Tailwind CSS
 
