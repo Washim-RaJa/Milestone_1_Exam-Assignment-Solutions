@@ -3,7 +3,7 @@
 
 This website design can be used for providing services like business growth and marketing for Startup businesses.
 
-I have designed this "Pixlab landing page" as an assignment project for "PW Skills Web Development Course" using technologies like :-
+I have designed this "Pixlab landing page" as an assignment project for "PW Skills Web Development Course" using technologies which are mentioned below :-
 
 - HTML
 - Tailwind CSS
