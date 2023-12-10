@@ -3,7 +3,7 @@
 
 This website design can be used for providing online education services.
 
-I have designed this "E GURU landing page" as an assignment project for "PW Skills Web Development Course" using technologies like :-
+I have designed this "E GURU landing page" as an assignment project for "PW Skills Web Development Course" using technologies which are mentioned below :-
 - HTML
 - CSS
 
