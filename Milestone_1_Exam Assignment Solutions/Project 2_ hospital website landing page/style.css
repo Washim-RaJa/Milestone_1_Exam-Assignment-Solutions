@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+*{box-sizing: border-box;padding: 0;margin: 0;}
+/* Page's header coding starts here */
+header{
+    width: 100%;
+    height: fit-content;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+/* Page's header navbar coding starts here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+nav>div{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+nav>div>h2{
+    color: white;
+    font-family: montserrat;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.menu>li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav-btn{
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    color: white;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* Page's header navbar coding ends here */
+/* Page's header intro coding starts here */
+header>section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 120px;
+}
+.heading{
+    width: 550px;
+    padding-top: 105px;
+}
+.heading>h1{
+    color: white;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    margin: 35px 0;
+}
+.heading>p{
+    color: white;
+    font-family: montserrat;
+    font-size: 21px;
+    padding-right: 150px;
+    line-height: 30px;
+}
+.btn-1,.btn-2{
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    color: white;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin: 65px 0;
+}
+.btn-1{
+    border: none;
+    background-color: #23A6F0;
+}
+.btn-2{
+    border: 1px solid #fff;
+    background: transparent;
+}
+/* Page's header intro coding ends here */
+/* Page's header appointment form coding starts here */
+.form-page{
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    padding-top: 40px;
+    padding: 40px 45px 0px;
+}
+.form-page>h2{
+    font-family: montserrat;
+    text-align: center;
+    font-weight: 900;
+}
+form{
+    margin-top: 40px;
+}
+form>label{
+    font-family: montserrat;
+    font-weight: bolder;
+}
+form>input[type="text"],[type="email"],select{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin: 10px 0;
+    color: gray;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+form>input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 2px;
+    background-color: #23A6F0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* Page's header appointment form coding ends here */
+/* Page's header coding ends here */
+/* Page's main coding starts here */
+main{
+    width: 100%;
+    height: auto;
+}
+ /* main's service section */
+.service-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 120px;
+}
+.service-section>h1{
+    font-family: montserrat;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-section>p{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding: 0 295px;
+}
+.service-card-container{
+    display: flex;
+    gap: 30px;
+    margin: 100px 0;
+}
+.service-card{
+    width: fit-content;
+    height: auto;
+}
+.card-heading-box{
+    background-color: #8EC2F2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 47px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-heading-box>div{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #8EC2F2;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
+}
+.card-heading-box>h3{
+    color: #fff;
+    font-family: montserrat;
+}
+.card-details-box{
+    padding: 25px 49px;
+    border: 1px solid #c1d8ee;
+    border-radius: 8px;
+}
+.card-details-box>ul>li{
+    list-style-type: '-';
+    color: gray;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin: 15px 0;
+}
+.card-details-box>span{
+    color: #23A6F0;
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+ /* main's review section */
+ .review-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 120px;
+    background-color: #f5F5F5;
+ }
+ .review-section>h1{
+    font-family: montserrat;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.review-section>p{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding: 0 295px;
+}
+.review-card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+.review-cards{
+    width: fit-content;
+    height: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px #ddd;
+    padding: 35px 35px;
+}
+.fa-star,.fa-star-o{
+    color: #F3CD03;
+    font-size: 21px;
+}
+.review-cards>p{
+    color: gray;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 30px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.review-cards>img{
+    width: 50px;
+    height: 50px;
+}
+/* main's FAQ section */
+.FAQ-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 120px 50px;
+    background-color: #fff;
+ }
+ .FAQ-section>h1{
+    font-family: montserrat;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.FAQ-section>p{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding: 0 295px;
+}
+.FAQ-card-container{
+    display: flex;
+    gap: 84px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+.FAQ-cards{
+    width: 300px;
+    display: flex;
+    gap: 15px;
+}
+.fa-angle-right{
+    color: #23A6F0;
+    font-size: 35px;
+}
+.FAQ-cards>div>h3{
+    font-family: montserrat;
+    margin: 10px 0;
+    line-height: 25px;
+}
+.FAQ-cards>div>p{
+    color: gray;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 30px;
+}
+/* main's pricing section */
+.pricing-section{
+    width: 100%;
+    height: auto;
+    padding: 100px 120px 50px;
+    background-color: #f5F5F5;
+ }
+ .pricing-section>h1{
+    font-family: montserrat;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pricing-section>p{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding: 0 295px;
+}
+.pricing-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin: 90px 0;
+    gap: 1px;
+}
+.card-free{
+    width: 350px;
+    padding: 50px 20px;
+    border: 2px solid #8EC2F2;
+    border-radius: 10px;
+}
+.card-free>h2{
+    font-family: montserrat;
+    text-align: center;
+}
+.card-free>p{
+    color: gray;
+    font-family: montserrat;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 35px 60px;
+}
+.price-tag{
+    width: fit-content;
+    display: flex;
+    gap: 12px;
+    margin: 0 auto;
+}
+.price-tag>h1{
+    font-family: montserrat;
+    font-size: 40px;
+    color: #23A6F0;
+}
+.price-tag>div{
+    line-height: 25px;
+}
+.price-tag>div>span{
+    color: #23A6F0;
+    font-family: montserrat;
+    font-weight: bold;
+}
+.price-tag>div>p{
+    color: #8EC2F2;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-free>ul{
+    list-style: none;
+    padding: 10px 17px;
+}
+.card-free>ul>li{
+    font-family: montserrat;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 25px;
+}
+.fa-check-circle{
+    font-size: 40px;
+    position: relative;
+    top: 11px;
+    margin-right: 7px;
+    color: #2DC071;
+}
+.card-free>button{
+    width: 270px;
+    height: 55px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #23A6F0;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.card-standard{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    position: relative;
+    top: -24px;
+    background-color: #252B42;
+    border: none;
+}
+.card-standard>h2{
+    color: white;
+}
+.card-standard>ul>li{
+    color: whitesmoke;
+
+}
+.standard-fa-icon{
+    background-color: whitesmoke;
+    padding: 0 3px;
+    border-radius: 50%;
+}
+/* main's coding ends here */
+/* footer coding starts here */
+footer{
+    width: 100%;
+    height: auto;
+}
+/* footer's subscribe section */
+.subscribe-section{
+    width: 100%;
+    height: fit-content;
+    padding: 90px 120px;
+
+    background-color: #252B42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-heading{
+    width: 450px;
+    height: fit-content;
+}
+.footer-heading>h1{
+    font-family: montserrat;
+    color: white;
+    font-size: 40px;
+}
+.footer-heading>p{
+    font-family: montserrat;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 7px 0;
+}
+#subscribe-email{
+    width: 280px;
+    height: 55px;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#subscribe-btn{
+    width: 120px;
+    height: 55px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* footer's about section */
+.about-section{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 90px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-section-cards{
+    width: fit-content;
+    height: fit-content;
+}
+.about-section-cards>h2{
+    font-family: montserrat;
+    font-weight: bold;
+}
+.about-section-cards>p{
+    color: gray;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    margin: 30px 0;
+}
+.about-section-cards>ul>li{
+    list-style: none;
+    color: gray;
+    margin-top: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* footer's credit section */
+.credit-section{
+    width: 100%;
+    height: fit-content;
+    background-color: #f5F5F5;
+    padding: 30px 0;
+}
+.credit-section>h5{
+    font-family: montserrat;
+    color: gray;
+    text-align: center;
+}

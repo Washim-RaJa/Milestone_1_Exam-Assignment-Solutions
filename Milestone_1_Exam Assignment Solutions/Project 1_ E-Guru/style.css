@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* page navigation menu coding starts here */
+nav{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.menu-icon,.user-profile{
+    display: none;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.brand-name{
+    font-family: century gothic;
+    font-weight: 900;
+    font-size: 27px;
+}
+.menu{
+    padding: 0;
+    margin: 0 120px;
+}
+.menu>li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.home,.about,.features,.hiw{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.home{
+    color: #ff5202;
+    font-weight: bold;
+}
+.about,.features,.hiw{
+    color: gray;
+}
+.signup-btn{
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-color: #fff;
+    padding: 16px 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* page's main coding starts here */
+main{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows:  repeat(1,1fr) 250px;
+    grid-template-columns: 670px repeat(1,1fr);
+    grid-template-areas: 
+    "heading ad_image"
+    "btn_container ad_image";
+    padding: 60px 0px 0px 70px;
+}
+/* page's intro coding starts here*/
+.heading{
+    grid-area: heading;
+    padding-top: 20px;
+}
+.heading>h1{
+    font-family: product sans;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.heading>p{
+    color: #1A1A1A;
+    font-family: montserrat;
+    font-size: 22px;
+    padding: 15px 150px 15px 15px;
+    border-left: 1px solid black;
+    line-height: 35px;
+    margin-top: 20px;
+}
+/* page's intro coding ends here*/
+/* page's ad image coding starts here */
+.ad-image{
+    grid-area: ad_image;
+    position: relative;
+}
+.main-image-bg{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.main-image{
+    width: 320px;
+    height: 450px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 80px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+.main-image-pattern{
+    width: 485px;
+    position: absolute;
+    top: -20px;
+    left: 60px;
+}
+.orange-arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.green-arrow{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.circle-image{
+    position: absolute;
+    right: 30px;
+    bottom: 130px;
+}
+/* page's ad image coding ends here */
+/* main's buttons coding starts here */
+.btn-container{
+    grid-area: btn_container;
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+/* Get Started button & Learn More button */
+.btn-gs,.btn-lm{
+    width: 180px;
+    height: 65px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-gs{
+    color: white;
+    background-color: #ff5202;
+}
+.btn-lm{
+    background-color: white;
+    border: 1px solid black;
+}
+/* Curve arrow image coding */
+.btn-container>img{
+    width: 150px;
+    height: 110px;
+    margin: 20px 0px 0px 40px;
+}
+/* main's buttons coding ends here */
+/* page's main coding ends here */
+/* page footer coding starts here */
+footer{
+    background-color: #262543;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* card-1 */
+.container1{
+    width: 290px;
+    height: fit-content;
+}
+.container1>h1{
+    color: white;
+    font-family:  sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+.container1>p{
+    color: #ADADB8;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+/* cards 2,3,4 */
+.container2,.container3,.container4{
+    width: 221px;
+    height: fit-content;
+}
+/* card 2,3,4's icon */
+.container2>div,.container3>div,.container4>div{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+.container2>div{
+    background-color: #1CD7AF;
+}
+.container3>div{
+    background-color: #FC5B11;
+}
+.container4>div{
+    background-color: #525BF1;
+}
+/* card 2,3,4's heading & para */
+.container2>h2,.container3>h2,.container4>h2{
+    color: white;
+    font-family: sans-serif;
+}
+.container2>p,.container3>p,.container4>p{
+    color: #ADADB8;
+    font-family: montserrat;
+    font-size: 14px;
+    padding-right: 35px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+/* page footer coding starts here */
+/* coding for small device(Mobile) starts here */
+@media screen and (max-width: 576px) {
+    nav{
+        justify-content: space-between;
+        padding: 30px 20px 0px;
+    }
+    .menu-icon,.user-profile{
+        display: block;
+        cursor: pointer;
+    }
+    .menu,.signup-btn{
+        display: none;
+    }
+    .logo-box>img{
+        width: 30px;
+    }
+    .brand-name{
+        font-size: 20px;
+    }
+    main{
+        display: block;
+        padding: 0px 0px 0px 20px;
+    }
+    .heading>h1{
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .heading>p{
+        font-size: 17px;
+        padding: 15px 100px 15px 15px;
+    }
+    .ad-image{
+        position: relative;
+        margin-top: 70px;
+    }
+    .main-image-bg{
+        position: relative;
+        width: 400px;
+        top: 10px;
+        left: 25px;
+    }
+    .main-image{
+        width: 280px;
+        height: 390px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 80px;
+        position: absolute;
+        top: 15px;
+        left: 90px;
+    }
+    .main-image-pattern{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: -15px;
+        left: 35px;
+    }
+    .orange-arrow{
+        position: absolute;
+        top: -10px;
+        left: 50px;
+    }
+    .green-arrow{
+        position: absolute;
+        bottom: -70px;
+        left: 20px;
+    }
+    .circle-image{
+        width: 15px;
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+    }
+    .btn-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .btn-gs,.btn-lm{
+        width: 200px;
+    }
+    .btn-container>img{
+        width: 100px;
+        height: 70px;
+        margin: 0px 0px 0px 240px;
+    }
+    footer{
+        height: fit-content;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .container1{
+        height: fit-content;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .container2,.container3,.container4{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .container2>div,.container3>div,.container4>div{
+        margin: 40px auto;
+    }
+    .container2>p,.container3>p,.container4>p{
+        padding-left: 16px;
+    }
+}
