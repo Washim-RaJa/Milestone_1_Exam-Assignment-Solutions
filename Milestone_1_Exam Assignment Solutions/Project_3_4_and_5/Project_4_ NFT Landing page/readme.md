@@ -3,7 +3,7 @@
 
 This website design can be used for selling and creating NFTs online.
 
-I have designed this "NFT landing page" as an assignment project for "PW Skills Web Development Course" using technologies like :-
+I have designed this "NFT landing page" as an assignment project for "PW Skills Web Development Course" using technologies which are mentioned below :-
 - HTML
 - Tailwind CSS
 
